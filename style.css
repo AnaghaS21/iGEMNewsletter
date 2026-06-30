@@ -55,3 +55,40 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+.categories {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+    padding: 1.5rem;
+    width: 280px;
+    text-align: left;
+    border-top: 5px solid #0077b6;
+}
+
+.category-box h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.category-box p {
+    margin-bottom: 1rem;
+}
+
+.category-box a {
+    color: #0077b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.category-box a:hover {
+    text-decoration: underline;
+}
